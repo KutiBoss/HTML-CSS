@@ -1,5 +1,10 @@
-body{
-    background-color: violet;
+head{
+    background-color:azure;
     padding: 10cm;
     font: italic;
 }
+body{
+    text-decoration-color: blueviolet;
+    padding: 10cm;
+    font-style: oblique;
+}   
