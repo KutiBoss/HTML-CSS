@@ -1,0 +1,47 @@
+.form-container{
+ width: 450px;   
+ text-indent: 5em;
+ columns: 18cm ;
+ margin: auto;
+}
+
+.form-style{
+width: 450px; 
+text-indent: 5em; 
+margin-bottom: auto;
+font-size: xx-large;
+columns: 18cm;
+margin: auto;
+}
+.form-input{
+    width: 450px; 
+    text-indent: 5em; 
+    margin-bottom: auto;
+    font-size: xx-large;
+    columns: 18cm;
+    margin: auto;
+}
+.form-message{
+    width: 450px; 
+    text-indent: 5em; 
+    margin-bottom: auto;
+    font-size: xx-large;
+    columns: 18cm;
+    margin: auto;
+}
+.form-send{
+    width: 450px; 
+    text-indent: 5em; 
+    margin-bottom: auto;
+    font-size: xx-large;
+    columns: 18cm;
+    margin: auto;  
+}
+.form-text{
+    width: 450px; 
+    text-indent: 5em; 
+    margin-bottom: auto;
+    font-size: xx-large;
+    columns: 18cm;
+    margin: auto;  
+}

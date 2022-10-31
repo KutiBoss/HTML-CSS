@@ -1,10 +1,13 @@
 head{
     background-color:azure;
-    padding: 10cm;
+    padding:0%;
     font: italic;
 }
 body{
     text-decoration-color: blueviolet;
-    padding: 10cm;
+    padding:0%;
     font-style: oblique;
 }   
+img{
+    margin: auto;
+}
