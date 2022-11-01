@@ -1,0 +1,37 @@
+.card{
+    background-color: #cbd49a;
+    background-image: linear-gradient(bottom right purple);
+    border-radius: 20px;
+    border-style: dotted;
+    padding: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    width: 250px;
+    height: 300px;
+    font-style: oblique;
+    
+}
+.contact-card{
+    color: black;
+}
+td{
+    width: 150px;
+    margin: auto;
+}
+.label{
+    font-weight: bold;
+    font-size: small;
+    width: 150px;
+    margin: auto;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100px;
+    width: 150px;
+    border-radius: 8px;
+}
+
