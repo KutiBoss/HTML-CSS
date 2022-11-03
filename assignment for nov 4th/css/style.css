@@ -1,15 +1,59 @@
-.try{
-    border: solid;
-    background-color: white;
-    display: block;
-    border-radius: 5px;
-    text-align: center;
-    margin-left: auto;
+*{
+    box-sizing: border-box;
 }
-.try-for-free{
-    border: solid;
+body{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 2px;
+}
+.card_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    border-radius: 1px;
     background-color: white;
-    display: block;
-    border-radius: 5px;
-    text-align: center;
+    margin-bottom: 1px;
+}
+.card_details_text{
+    margin-bottom: 2.5em;
+}
+.card_details_text h3{
+    margin-top: 1px;
+    margin-bottom: 0.5px;
+}
+
+.pricing_details{
+   display: flex;
+   flex-direction: column;
+    color: rgb(225, 193, 150);
+    
+}
+.yearly_bill{
+    color: rgb(245, 220, 187);
+    display: flex;
+    gap: 2em;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5em;
+
+}
+.monthly_bill_details{
+    font-size: 10em;
+}
+.list{
+    display: flex;
+    gap: 0.5em;
+    line-height: 1.5em;
+}
+.list_row{
+    width: 25px;
+    height: 25px;
+}
+span{
+    border-bottom: hsl(0deg, 0%, 20%) dotted;
 }
