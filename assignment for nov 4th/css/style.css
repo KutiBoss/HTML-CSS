@@ -1,0 +1,15 @@
+.try{
+    border: solid;
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: auto;
+}
+.try-for-free{
+    border: solid;
+    background-color: white;
+    display: block;
+    border-radius: 5px;
+    text-align: center;
+}
