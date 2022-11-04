@@ -9,31 +9,38 @@ body{
     align-content: center;
     padding: 2px;
 }
-.card_details {
+.card_details{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 300px;
-    border-radius: 1px;
-    background-color: white;
-    margin-bottom: 1px;
+    height: 600px;
+    border-radius: 2em;
+    background-color: palegoldenrod;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
-.card_details_text{
-    margin-bottom: 2.5em;
-}
+
 .card_details_text h3{
-    margin-top: 1px;
+    margin-top: 1em;
     margin-bottom: 0.5px;
+}
+.card_contents p{
+    margin-bottom: 1em;
+    text-align: left;
 }
 
 .pricing_details{
    display: flex;
    flex-direction: column;
-    color: rgb(225, 193, 150);
+    color: black;
     
 }
 .yearly_bill{
-    color: rgb(245, 220, 187);
+    color: black;
     display: flex;
     gap: 2em;
     width: 100%;
@@ -43,16 +50,25 @@ body{
 
 }
 .monthly_bill_details{
-    font-size: 10em;
+    font-size: 6em;
+}
+.card_free{
+    align-self: center;
+    width: 90%;
+    margin-bottom: 1em;
+}
+.card_free button{
+    padding: 1em;
+    border-radius: 1.5em;
+    background-color: white;
+    width: 100%;
+    border: none;
+    color: black;
+    font-size: 1rem;
+    font: 700;
 }
 .list{
-    display: flex;
-    gap: 0.5em;
-    line-height: 1.5em;
-}
-.list_row{
-    width: 25px;
-    height: 25px;
+    margin-bottom: 20px;
 }
 span{
     border-bottom: hsl(0deg, 0%, 20%) dotted;
